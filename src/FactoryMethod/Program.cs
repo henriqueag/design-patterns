@@ -2,11 +2,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace FactoryMethod;
 
-public class Program
+public static class Program
 {
     private static IServiceProvider Services { get; set; }
 
-    static void Main(string[] args)
+    static void Main()
     {
         ConfigureServices();
 
